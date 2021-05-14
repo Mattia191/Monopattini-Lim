@@ -1,0 +1,94 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+*{
+  font-family: sans-serif;
+}
+
+.contenitore{
+  background: rgb(41, 49, 51);
+  background: rgba(41, 49, 51, 0.6);
+  /* Per IE 5.5, 6 e 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* Per IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+/* Per IE 8*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  height: 680px;
+  width: 950px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.logo{
+  color: lime;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.immagine{
+  height: 80px;
+  width: 170px;
+}
+.titolo{
+  font-size: 25px;
+}
+
+.link{
+  margin: auto;
+  text-align: center;
+  background-color: lime;
+  height: 35px;
+  width: 800px;
+  justify-content: center;
+}
+
+.bottoni{
+  padding: 6px;
+}
+
+.contenuto{
+  margin-left: 50px;
+}
+
+.monopattini{
+  color: white;
+}
+
+.nomemonopattino{
+    list-style-type: square;
+}
+
+.tipomonopattino{
+  line-height: 5px;
+  font-size: 20px;
+}
+
+.via{
+  font-size: 13px;
+}
+
+.carica1{
+  background-color: orange;
+  height: 20px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.carica2{
+  background-color: lime;
+  height: 20px;
+  width: 450px;
+  border-radius: 5px;
+}
+
+.carica3{
+  background-color: darkviolet;
+  height: 20px;
+  width: 100px;
+  border-radius: 5px;
+}
